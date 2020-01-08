@@ -1,0 +1,373 @@
+@charset "utf-8"; 
+/* 2015-03-12 CSS CENTUMSOFT */
+
+/* 공통 */
+/* 소개 */
+.ov-tit {font-size:28px;color:#000;font-weight:normal;line-height:100%;margin-bottom:24px;}
+.ov-txt {font-size:14px;color:#333;line-height:22px;} 
+
+/* 개요리스트 */
+.outline-wrap {clear:both;width:100%;overflow:hidden;border-top:2px solid #043d86;border-bottom:1px solid #bac2ca;}
+.outline-wrap li {float:left;width:50%;border-bottom:1px solid #ddd;padding:15px 0;color:#333;font-size:13px;}
+.outline-wrap li .tit {width:150px;float:left;padding-left:10px;font-weight:bold;color:#034ea1;font-size:14px;	}
+.outline-wrap li .tit.tit2 {width:90px;float:left;padding-left:10px;font-weight:bold;color:#034ea1;font-size:14px;line-height:14px;margin-top:-7px;}
+.outline-wrap li.last {border-bottom:0}
+.outline-wrap li.full {width:100%}
+.outline-wrap li .next-line {display:block;margin-left:160px;}
+.outline-wrap.full li {float:none;width:100%;overflow:hidden;}
+.outline-wrap.full li .tit {width:200px;}
+.outline-wrap.full li .txt {width:540px;float:left;}
+
+/* 컨텐츠 단일 접기 */
+.fold-tit {text-align:center}
+.fold-tit a {display:inline-block; background:#48525e; font-weight:bold; color:#fff; padding:5px 8px; cursor:pointer; }
+.fold-tit a span.arr{margin-left:10px; vertical-align:middle; display:inline-block; height:16px; width:16px; background:url(../../img/common/fold_open.png) no-repeat 0 0;}
+.fold-tit a.over span.arr {background-position:-20px 0px}
+.fold-cont {height:0px; overflow:hidden; }
+
+/* busan port authority */
+/* overview */
+.overview-top {background:url(../../kor/img/About/overview_bg.gif) no-repeat right 0;height:186px;padding:30px 340px 0 0;}
+.overview-top h3 {font-size:28px;color:#000;margin-bottom:20px; font-weight:normal}
+.overview-top p {font-size:15px;color:#333;}
+
+/* Greetings from CEO */
+.cegree-wrap {background:url(../../kor/img/About/cegree_bg.jpg) no-repeat 0 0;padding:68px 0 0 15px;border-bottom:1px solid #979797;height:375px;}
+.cegree-wrap .tit {font-size:26px;color:#333;font-weight:normal;line-height:26px}
+.cegree-wrap .txt {font-size:15px;color:#333;line-height:22px;width:365px;margin-top:30px}
+.cegree-wrap .sig {position:relative;font-size:14px;color:#333;font-weight:bold;margin-top:90px;width:290px;text-align:right;}
+.cegree-wrap .sig span {font-size:16px;padding-left:10px;font-weight:bold;display:block;}
+.cegree-wrap .sig img {position:absolute;top:40px;right:0;}
+.cegree-cont {margin-top:45px;}
+.cegree-cont .cont-txt {width:360px;float:left;margin-left:40px;}
+.cegree-cont .cont-txt:first-child {margin-left:0}
+.cegree-cont .cont-txt p {margin-bottom:20px;font-size:14px;text-align:justify;word-break:break-all;}
+
+/* Career */
+.career-wrap {background:url(../../kor/img/About/cegree02_bg.jpg) no-repeat right 60px;}
+.career-wrap dl {overflow:hidden;width:680px;padding-left:10px;}
+.career-wrap dt, .career-wrap dd {float:left;}
+.career-wrap dt {width:149px;font-weight:bold;background:url(../../img/common/blt04.gif) no-repeat 0 9px;padding:4px 0 4px 11px; font-size:14px}
+.career-wrap dd {width:490px;padding:4px 0}
+
+/* vision */
+.vision-wrap {background:url(../img/Bpa/vision_bg.jpg) no-repeat 0 0;overflow:hidden;letter-spacing:-1px;font-weight:bold;margin:20px 0;}
+.vision-wrap h5 {float:left;width:120px;font-size:16px;font-weight:bold;color:#444;letter-spacing:-1px;margin-top:17px;}
+.vision-wrap h5.dir {margin-top:73px;float:left;width:120px;}
+.vision-wrap h5.aim {margin-top:114px;float:left;width:120px;}
+.vision-wrap h5.task {margin-top:104px;float:left;width:120px;}
+.vision-wrap .dir li:first-child,.vision-wrap .aim li:first-child, .vision-wrap .task li:first-child,  .vision-wrap .task li.first {margin-left:0}
+.vision-wrap .list01 {float:right;text-align:center;width:637px;}
+.vision-wrap .list01 li {display:inline-block;*display:inline;*zoom:1;font-size:14px;color:#034ea1;width:200px;padding:12px 0 16px 15px; line-height:100%}
+.vision-wrap .list01 li:first-child {padding-left:0}
+.vision-wrap .t1 {font-size:16px;color:#034ea1;text-align:center;padding:15px 0;line-height:18px;}
+.vision-wrap .depth2 {float:left;width:310px;margin-top:-8px}
+.vision-wrap .depth2 h6 {color:#fff;font-size:14px;text-align:center;padding-bottom:3px;}
+.vision-wrap .depth2 ul, .vision-wrap .depth2 p {font-size:13px;color:#034ea1;}
+.vision-wrap .dir {margin-top:40px;overflow:hidden;float:right;width:637px;}
+.vision-wrap .dir li {float:left;color:#fff;width:106px;margin-left:48px;text-align:center;padding:0 8px;line-height:100%;font-size:13px;}
+.vision-wrap .aim {margin:80px 0 15px;overflow:hidden;font-size:16px;float:right;width:637px;}
+.vision-wrap .aim li {float:left;color:#fff;width:127px;text-align:center;margin-left:43px;}
+.vision-wrap .task {margin:60px 0 15px;float:right;width:637px;}
+.vision-wrap .task li {float:left;width:129px;background:url(../../kor/img/Infor/Disclo/blt_task.gif) no-repeat 11px 9px;color:#fff;line-height:20px;padding-left:18px;margin-left:15px;font-weight:normal;}
+.vision-wrap .task li.last {margin-left:178px;}
+.vision-wrap.bg {background:url(../img/Bpa/vision_bg.jpg) no-repeat 0 0;overflow:hidden;letter-spacing:-1px;font-weight:bold;margin:20px 0;}
+
+
+.vision-wrap h5.task01 {margin-top:104px;float:left;width:120px;}
+.vision-wrap .dir li:first-child,.task01 li:first-child, .vision-wrap .task01 li.first {margin-left:0}
+.vision-wrap .task01 {margin:40px 0 15px;float:right;width:637px;}
+.vision-wrap .task01 li {float:left;width:132px;background:url(../../kor/img/Infor/Disclo/blt_task.gif) no-repeat 11px 9px;color:#fff;line-height:19px;padding-left:17px;margin-left:15px;font-weight:normal;}
+.vision-wrap .task01 li.last {clear:left;}
+.task01 li:first-child, .vision-wrap .task01 li.first {margin-left:-5px;}
+.vision-wrap .task01 li.blank {margin-left: 179px;}
+
+
+.vision-wrap2 div.list01 {background:url(../../kor/img/Infor/Disclo/gener04.jpg) no-repeat 0 0; height:95px;margin:20px 0;}
+.vision-wrap2 div.list01 div:first-child{width:100px;height:60px;float:left;padding-top:30px;font-size:15px;text-align:center;padding-right:10px;}
+.vision-wrap2 div.list01 div:last-child{width:650px;height:95px;float:left;padding-top:25px;}
+.vision-wrap2 div.list02 {background:url(../../kor/img/Infor/Disclo/gener05.jpg) no-repeat 0 0; height:95px;margin:20px 0;}
+.vision-wrap2 div.list02 div:first-child{width:100px;height:60px;float:left;padding-top:30px;font-size:15px;text-align:center;padding-right:10px;}
+.vision-wrap2 div.list02 div:last-child{width:650px;height:95px;float:left;padding-top:25px;}
+
+/* organization */
+/*
+.org-wrap {position:relative;text-align:center;background:url(/kor/img/About/org_bg.gif) no-repeat 28px 0;padding-top:9px;margin-top:30px;overflow:hidden;letter-spacing:-0.5px;}
+.org-wrap li {width:150px;background:#eee;border-bottom:1px solid #d9d9d9;border-right:1px solid #d9d9d9;padding:8px 0;text-align:center;margin-bottom:3px;line-height:16px;color:#444;}
+.org-wrap li a:hover {text-decoration:underline;} 
+.org-wrap .org-d1 {width:410px;margin:0 auto 53px;overflow:hidden;min-height:214px;}
+.org-wrap .org-d1 h1 {background:url(/kor/img/About/org_h3.jpg) no-repeat 0 0;color:#fff;font-size:18px;text-align:center;width:180px;height:20px;padding:20px 0;margin:0 auto;}
+.org-wrap .org-d1 ul {margin-top:33px;overflow:hidden;}
+.org-wrap .org-d1 li.d3.fr {background:url(../img/Bpa/org_h5.jpg) no-repeat 0 0;border:0;padding:15px 0 25px;margin-top:30px;color:#fff;font-weight:bold;}
+.org-wrap .org-d1 li.d3 ul {margin-top:21px;}
+.org-wrap .org-d1 li.d3 ul li {color:#fff;font-weight:normal;}
+.org-wrap .org-d2 {position:absolute;top:0;left:0;}
+.org-wrap .org-d2 h2 {background:url(/kor/img/About/org_h4.jpg) no-repeat 0 0;color:#fff;font-size:14px;text-align:center;width:99px;height:18px;padding:34px 0 39px;margin:0 0 11px 24px;}
+.org-wrap .org-d3 {margin:0 51px 0;float:left;}
+.org-wrap .org-d3.first {margin-left:50px;}
+.org-wrap .org-d3 h3 {background:url(../img/Bpa/org_h5.jpg) no-repeat 0 0;color:#fff;font-weight:14px;text-align:center;width:150px;height:63px;padding-top:20px;margin-bottom:20px;}
+.org-wrap .org-d3 h3 a {color:#fff;}
+.org-wrap .org-d3 li.d3 {background:url(/kor/img/About/org_h502.gif) no-repeat 0 0;border:0;padding:10px 0 40px; color:#fff; border-left:solid 1px #fff;}
+.org-wrap .org-d3 li.d5 {background:url(/kor/img/About/org_h503.jpg) no-repeat 0 0;border:0;padding:12px 0 20px; color:#fff;}
+.org-wrap .org-d3 li.d5 a {color:#fff;font-weight:bold;}
+.org-wrap .org-d3 li.d3 a {color:#fff;font-weight:bold;}
+.org-wrap .org-d3 li.d3 ul {margin-top:20px;}
+.org-wrap .org-d3 li.d3 ul li a {color:#444;font-weight:normal;}
+.org-wrap .org-d4 {margin:50px 50px 0;float:left;}
+.org-wrap .org-d4.first {clear:both;margin-left:50px;}
+.org-wrap .org-d4 h3 {background:url(../img/Bpa/org_h5.jpg) no-repeat 0 0;color:#fff;font-weight:14px;text-align:center;width:150px;height:63px;padding-top:20px;margin-bottom:15px;}
+.org-wrap .org-d4 h3 a {color:#fff;}
+.org-wrap .org-d4 li.d3 {background:url(/kor/img/About/org_h502.gif) no-repeat 0 0;border:0;padding:10px 0 20px;}
+.org-wrap .org-d4 li.d3 a {color:#fff;font-weight:bold;}
+.org-wrap .org-d4 li.d3 ul {margin-top:20px;}
+.org-wrap .org-d4 li.d3 ul li a {color:#444;font-weight:normal;}*/
+
+.org-wrap {position:relative;text-align:center;background:url(../../kor/img/About/org_bg.gif) no-repeat 28px 0;padding-top:9px;margin-top:20px;overflow:hidden;}
+.org-wrap li {width:150px;background:#eee;border-bottom:1px solid #d9d9d9;border-right:1px solid #d9d9d9;padding:8px 0;text-align:center;margin-bottom:3px;line-height:16px;color:#444;}
+.org-wrap li.d6 {width:150px;background:#eee;border-bottom:1px solid #d9d9d9;border-right:1px solid #d9d9d9;padding:8px 0;text-align:center;margin-bottom:3px;line-height:16px;color:#444;}
+.org-wrap li a:hover {text-decoration:underline;}
+.org-wrap .org-d1 {width:410px;margin:0 auto 53px;overflow:hidden;min-height:214px;}
+.org-wrap .org-d1 h1 {background:url(../../kor/img/About/org_h3.jpg) no-repeat 0 0;color:#fff;font-size:18px;text-align:center;width:180px;height:20px;padding:20px 0;margin:0 auto;}
+.org-wrap .org-d1 ul {margin-top:23px;overflow:hidden;}
+.org-wrap .org-d1 li.d3.fr {background:url(../img/Bpa/org_h5.jpg) no-repeat 0 0;border:0;padding:15px 0 25px;margin-top:20px;color:#fff;font-weight:bold;}
+.frr_clear {clear : both;}
+.fr_clear {clear : both;}
+.org-wrap .org-d1 li.d3 {background:url(../../kor/img/About/org_h502.gif) no-repeat 0 0;border:0;padding:12px 0 20px;}
+.org-wrap .org-d1 li.d3 a {color:#fff;font-weight:bold;}
+.org-wrap .org-d1 li.d3 ul {margin-top:31px;}
+.org-wrap .org-d1 li.d3 ul li a {color:#444;font-weight:normal;}
+.org-wrap .org-d2 {position:absolute;top:0;left:0;}
+.org-wrap .org-d2 h2 {background:url(../../kor/img/About/org_h4.jpg) no-repeat 0 0;color:#fff;font-size:14px;text-align:center;width:99px;height:18px;padding:45px 0;margin:0 0 11px 24px;padding-top:35px;}
+.org-wrap .org-d3 {margin:0 50px 0;float:left;}
+.org-wrap .org-d3.first {margin-left:50px;}
+.org-wrap .org-d3 h3 {background:url(../img/Bpa/org_h5.jpg) no-repeat 0 0;color:#fff;font-weight:14px;text-align:center;width:150px;height:43px;padding-top:15px;margin-bottom:15px;padding-bottom:20px;}
+.org-wrap .org-d3 h3 a {color:#fff;}
+.org-wrap .org-d3 li.d3 {background-color:#fff;border:solid 1px #bbb;padding:12px 0 12px; margin-bottom:5px; text-align:center;}
+.org-wrap .org-d3 li.d5 {background:url(../../kor/img/About/org_h503.jpg) no-repeat 0 0;border:0;padding:20px 0 20px;}
+.org-wrap .org-d3 li.d5 a {color:#fff;font-weight:bold;}
+.org-wrap .org-d3 li.d3 a {color:#444;font-weight:bold;}
+.org-wrap .org-d3 li.d3 ul {margin-top:21px;}
+.org-wrap .org-d3 li.d3 ul li a {color:#444;font-weight:normal;}
+.org-wrap .org-d4 {margin:50px 51px 0;float:left;}
+.org-wrap .org-d4.first {clear:both;margin-left:50px;}
+.org-wrap .org-d4 h3 {background:url(../img/Bpa/org_h5.jpg) no-repeat 0 0;color:#fff;font-weight:14px;text-align:center;width:150px;height:60px;padding-top:10px;margin-bottom:15px;padding-bottom:15px}
+.org-wrap .org-d4 h3.d3 {background:url(../img/Bpa/org_h5.jpg) no-repeat 0 0;color:#fff;font-weight:14px;text-align:center;width:150px;height:60px;padding-top:10px;margin-bottom:21px;}
+.org-wrap .org-d4 h3 a {color:#fff;}
+.org-wrap .org-d4 li.d3 {background:url(../../kor/img/About/org_h5.jpg) no-repeat 0 0;border:0;padding:12px 0 20px;}
+.org-wrap .org-d4 li.d3 a {color:#fff;font-weight:bold;}
+.org-wrap .org-d4 li.d3 ul {margin-top:21px;}
+.org-wrap .org-d4 li.d3 ul li a {color:#444;font-weight:normal;}
+.org-wrap .org-d3 li:not(.d3), .org-wrap .org-d4 li:not(.d4) {width:130px;background:url(../../kor/img/About/org-054.gif) no-repeat 0 9px;padding-top:0; padding-bottom:0; padding-right:0;padding-left:10px;text-align:left;margin-bottom:3px;margin-left:10px;line-height:24px;border:none;}
+.org-wrap .org-d3 .d3:last-child {margin-top:5px;}
+.org-wrap .org-d4 li.d4 {background-color:#fff;border:solid 1px #bbb;padding:12px 0 12px; margin-bottom:5px; text-align:center;}
+.org-wrap .org-d4 li.d4 a {color:#444;font-weight:bold;}
+.org-wrap .org-d4 li.d4 ul {margin-top:21px;}
+.org-wrap .org-d4 li.d4 ul li a {color:#444;font-weight:normal;}
+ 
+/* main project */
+/* North Port Redevelopment */
+.exp-wrap {overflow:hidden;}
+.exp-wrap h4 {width:173px;height:105px;margin:0 auto 20px;padding-top:70px;background:url(../img/Bpa/exp_bg01.gif) no-repeat center 0;text-align:center;color:#fff;font-size:26px;line-height:100%;font-weight:normal;}
+.exp-wrap li {float:left;width:30%;margin-left:30px;}
+.exp-wrap li:first-child {margin-left:0;}
+.exp-wrap li .num {background:url(../img/Bpa/exp_bg02.gif) no-repeat 0 0;width:40px;height:30px;display:block;text-align:center;font-size:16px;font-weight:bold;color:#3774c6;padding-top:10px;margin-bottom:15px;}
+.exp-wrap li.sec .num, .exp-wrap li.sec strong, .npd-wrap li.sec .num {color:#7aa021} /* 숫자컬러 */
+.exp-wrap li.thr .num, .exp-wrap li.thr strong, .npd-wrap li.last .num {color:#f26600} /* 숫자컬러 */
+.exp-wrap li strong {font-size:18px;font-weight:bold;color:#034ea1;}
+.exp-wrap li .exp-cont {margin-top:10px;line-height:18px;}
+
+.districts-wrap {border-top:2px solid #043d86;margin-top:10px;}
+.districts-wrap > div {padding:25px 380px 30px 25px;border-bottom:1px solid #ddd;} /* districts-wrap안에 지구별 공통 스타일 */
+.districts-wrap h4 {font-size:16px;color:#1a4379;margin-bottom:15px;}
+.districts-wrap h5 {font-size:13px;color:#034ea1;margin-top:15px;}
+.districts-cont {font-size:12px;color:#333;}
+/* bg 설정 */
+.districts-wrap .dis01 {background:url(../img/Bpa/districts01.jpg) no-repeat right 30px;}
+.districts-wrap .dis02 {background:url(../img/Bpa/districts02.jpg) no-repeat right 30px;}
+.districts-wrap .dis03 {background:url(../img/Bpa/districts03.jpg) no-repeat right 30px;}
+.districts-wrap .dis04 {background:url(../img/Bpa/districts04.jpg) no-repeat right 30px;}
+.districts-wrap .dis05 {background:url(../img/Bpa/districts05.jpg) no-repeat right 30px;}
+.districts-wrap .dis06 {background:url(../img/Bpa/districts06.jpg) no-repeat right 30px;}
+
+/* New Port Development */
+.npd-wrap {overflow:hidden;background:url(../img/Bpa/npd_bg.gif) no-repeat 36px 0;margin-bottom:70px;}
+.npd-wrap h5 {float:left;width:173px;height:149px;margin-left:36px;text-align:center;font-size:20px;line-height:100%;font-weight:normal;color:#fff;padding-top:88px;}
+.npd-wrap ol {float:left;padding:35px 0 0 60px;width:460px;}
+.npd-wrap li {clear:both; font-size:14px}
+.npd-wrap li span.num {background:url(../img/Bpa/exp_bg02.gif) no-repeat 0 0;width:40px;height:30px;display:block;float:left;text-align:center;padding-top:10px;margin:0 20px 20px 0;color:#3774c6;font-size:16px;font-weight:bold;}
+.npd-wrap li.last .num {height:70px}
+
+/* New Port Distripark Development */
+.hinterland-wrap {overflow:hidden;margin-top:40px;}
+.h-list {float:left;width:23.5%;margin-left:15px;}
+.h-list:first-child {margin-left:0;}
+.h-list h5 {font-size:14px;color:#333;line-height:20px;margin-bottom:17px;}
+.h-list li {font-size:12px;line-height:14px;margin:5px 0;}
+.ak-model {overflow:hidden;}
+.ak-model li {float:left;width:120px;text-align:center;padding-left:60px;font-weight:bold;background:url(../img/Bpa/ak_arr.gif) no-repeat 12px 51px;}
+.ak-model li.first {background:none;}
+.ak-model li .num {display:block;color:#fff;font-size:10px;height:24px;padding-top:3px}
+.ak-model li img {display:block;margin:10px auto 20px;}
+/* num bg */
+.ak-model li.first .num {background:url(../img/Bpa/ak_bg01.gif) no-repeat center 0;}
+.ak-model li.sec .num {background:url(../img/Bpa/ak_bg02.gif) no-repeat center 0;}
+.ak-model li.thr .num {background:url(../img/Bpa/ak_bg03.gif) no-repeat center 0;}
+.ak-model li.last .num {background:url(../img/Bpa/ak_bg04.gif) no-repeat center 0;}
+
+
+
+/* Main Concept of BPA Market */
+.shared04-wrap {position:relative;background:url(../img/Bsport/shbpa04_bg.jpg) no-repeat 50% 0;width:420px;height:381px;margin:0 auto;}
+.shared04-wrap h4 {position:absolute;top:211px;left:158px;text-align:center;font-size:18px;font-weight:800;width:110px;}
+.shared04-wrap li {position:absolute;color:#fff;font-size:18px;font-weight:800;text-align:center;}
+.shared04-wrap li.n01 {top:63px;left:149px;}
+.shared04-wrap li.n02 {top:285px;left:36px;}
+.shared04-wrap li.n03 {top:285px;right:10px;}
+.shared04-wrap li span {display:block;font-weight:700;font-size:16px;}
+
+
+
+
+/* Related Sites */
+.agprot-wrap ul {overflow:hidden;}
+.agprot-wrap li {float:left;padding:0 0 20px 20px;width:173px;min-height:155px;}
+.agprot-wrap li.first, .agprot-wrap li:first-child {padding-left:0}
+.agprot-wrap li a {display:block;border-bottom:3px solid #ededed;margin-bottom:10px;}
+.agprot-wrap li a img {border:1px solid #d2d2d2;width:173px;height:78px;}
+
+.related-wrap {clear:both;width:100%;overflow:hidden;border-top:2px solid #043d86;border-bottom:1px solid #bac2ca;}
+.related-wrap li {overflow:hidden;padding:15px 0;border-bottom:1px solid #ddd;color:#333;}
+.related-wrap li .tit {float:left;width:200px;padding-left:20px;font-weight:bold;color:#034ea1;font-size:14px;}
+.related-wrap li .site {float:left;width:500px;font-size:12px;}
+.related-wrap li.last {border-bottom:0;}
+
+/* Busan Port */
+/* 공통 */
+.bs-wrap {position:relative;}
+.bs-wrap h3 {font-family:Garamond; font-weight:normal;font-size:30px;margin-bottom:10px;color:#fff;line-height:30px}
+.bscon-box {position:absolute;top:0;left:0;background:url(../../kor/img/Business/bs_box_bg.png) repeat 0 0;text-align:center;color:#9ebde4;min-width:160px;padding:50px 50px 35px;line-height:14px;}
+.bscon-rbox {position:absolute;top:0;right:0;background:url(../../kor/img/Business/bs_box_bg.png) repeat 0 0;text-align:center;color:#9ebde4;min-width:100px;padding:50px 50px 35px;line-height:14px;}
+
+/* overview */
+.bsport-overview {background:url(../img/Bsport/overview_bg.jpg) no-repeat 40px 0;padding:0 0 70px 230px;min-height:180px;}
+.bsport-overview .tit {font-size:15px;font-weight:bold;color:#333;margin:0 0 36px 5px;}
+.bsport-overview p {color:#333;}
+.countries-list {overflow:hidden;background:#f6f6f6;padding:30px 30px;margin-top:30px;}
+.countries-list li {float:left;width:110px;background:url(../../img/common/blt06.gif) no-repeat 0 9px;padding-left:5px;margin:0 10px;} 
+.ovdiff{width:470px;float:left}
+.ovhis {clear:both;width:100%;overflow:hidden;border-top:2px solid #043d86;border-bottom:1px solid #bac2ca; }
+.ovhis dt {font-size:16px; font-weight:bold; color:#043d86; float:left; width:130px; padding:20px 0; padding-left:30px;  }
+.ovhis dl {border-bottom:1px dotted #bac2ca; overflow:hidden;}
+.ovhis dd {float:left; width:569px; font-weight:bold; padding:20px 0; padding-left:30px;  font-size:14px;  border-left:1px solid #d2d2d2; background:#f8f8f8}
+.ovhis dd p {font-weight:normal}
+.ovhis dd .c-list04-li {font-size:13px; color:#555}
+
+
+/* Busan North Port */
+.pfbnp {float:left;width:370px;overflow:hidden;}
+.pfbnp h3 {font-size:18px; font-weight:normal; color:#000;margin-bottom:20px; line-height:100%}
+.pfbnp p {font-size:14px;color:#333;}
+.bnp-list {clear:both;width:100%;background:url(../img/Bsport/bnp_bg.gif) no-repeat 70px 40px;padding-left:250px;min-height:160px; padding-top:40px}
+.ct-list {border-top:2px solid #043d86;border-bottom:1px solid #bac2ca;padding:30px 0 20px;margin:10px 0 30px;overflow:hidden;}
+.ct-list img {margin-right:40px;float:left;}
+.ct-list dl {float:left;overflow:hidden;width:460px;}
+.ct-list dt, .ct-list dd {float:left;margin-bottom:8px;}
+.ct-list dt {width:45%;font-weight:bold;color:#034ea1;font-size:13px;}
+.ct-list dd {width:53%;font-size:12px;color:#333;}
+
+/* Busan New Port */
+.bnewp-list {clear:both;width:100%;background:url(../img/Bsport/bnewport_bg.gif) no-repeat 54px 30px;padding-left:245px;min-height:130px; padding-top:40px}
+
+
+/* General Piers */
+.pfbnp.full {width:100%;overflow:hidden;float:none;}
+.general-list {background:url(../img/Bsport/pf04_02_bg.gif) no-repeat right 0;margin-top:45px;padding-right:235px;min-height:420px;}
+.general-list h4 {font-size:15px;font-weight:bold;color:#333;}
+.general-list h4 img {padding-right:6px;}
+.general-list p {line-height:20px;margin:10px 0 35px;}
+
+/* Passenger Terminal */
+/* 공통 */
+.terminal-top {margin-bottom:30px;}
+.terminal-top h3 {float:left;width:300px;font-size:26px;color:#333; font-weight:normal; line-height:100%; min-height:90px}
+.terminal-top p {float:left;width:450px; padding-top:10px}
+.terminal-info {border-top:2px solid #043d86;border-bottom:1px solid #bac2ca;overflow:hidden;padding:15px 0;}
+.terminal-info .tel {background:url(../../img/common/ico_etel.jpg) no-repeat 20px 0;width:84px;float:left;padding:3px 0 5px 60px;color:#034ea1;font-size:14px;}
+.terminal-info ul {float:left;width:610px;}
+.terminal-info li span {font-weight:bold;color:#333;}
+
+/* International Ship Chandling Center */
+.iscc-wrap {background:url(../img/Bsport/iscc_bg.gif) no-repeat 600px 0px;min-height:145px;}
+.iscc-wrap h3 {color:#333;font-size:18px;font-weight:bold;margin-bottom:18px;  padding-right:250px; padding-top:20px ; margin-bottom:20px}
+.iscc02-wrap {overflow:hidden;margin-top:50px;}
+.iscc02-wrap .list {float:left;width:222px;margin-left:47px;}
+.iscc02-wrap .list:first-child {margin-left:0;} 
+.iscc02-wrap .list h4 {color:#3168b2;font-size:16px;font-weight:bold;margin-bottom:20px;}
+.iscc02-wrap .list p {color:#333;line-height:18px;margin-top:15px;}
+.iscc03-wrap {margin:0 0 40px 57px;padding-top:30px;overflow:hidden;}
+.iscc03-wrap img {margin-right:45px;float:left;}
+.iscc03-wrap p {float:left;padding-top:42px;line-height:22px;width:390px;}
+
+
+.reasons img {float:left; padding-top:20px; padding-left:40px }
+.reasons ul {float:right; width:560px; }
+/* Contact us */
+/* map */
+.map-wrap {position:relative;border:1px solid #d2d2d2;margin-bottom:30px;}
+.map-wrap .map-view {position:absolute;bottom:0;right:0;background:#465869 url(../../kor/img/About/btn_map.gif) no-repeat right 0;width:110px;height:29px;display:block;color:#fff;font-weight:bold;padding:11px 0 0 12px;}
+.map-wrap .map-view:hover,.map-wrap .map-view:focus,.map-wrap .map-view:active {text-decoration:underline;}
+.tel-info li {color:#333;margin-bottom:3px;padding:2px 0 7px 40px;}
+.tel-info li.tel {background:url(../../img/common/ico_etel.jpg) no-repeat 0 0;}
+.tel-info li.fax {background:url(../../img/common/ico_efax.jpg) no-repeat 0 0;}
+.tel-info li.addr {background:url(../../img/common/ico_eaddr02.jpg) no-repeat 0 0;}
+.tel-info li span {font-weight:bold;font-size:14px;color:#034ea1;width:80px;display:block;float:left;}
+
+.traffic-wrap {overflow:hidden;margin:20px 0 0 5px;}
+.traffic-wrap .stit  {color:#034ea1;font-size:14px;width:70px;float:left;}
+.traffic-wrap span {width:48px;display:inline-block;*display:inline;*zoom:1;text-align:center;color:#fff;height:20px;margin-right:5px; font-size:11px; font-weight:bold}
+.traffic-wrap .taxi, .traffic-wrap .bus, .traffic-wrap .car, .traffic-wrap .subway {float:left;width:680px;}
+.traffic-wrap .bus li {margin:2px 0 3px}
+.traffic-wrap .bus01 span {background:url(../../img/common/bus_bg01.gif) no-repeat 0 0;}
+.traffic-wrap .bus02 span {background:url(../../img/common/bus_bg02.gif) no-repeat 0 0;}
+.traffic-wrap .bus03 span {background:url(../../img/common/bus_bg03.gif) no-repeat 0 0;}
+
+.traffic-wrap .subway span {margin-right:0; width:20px}
+.traffic-wrap .subway span.s01 {color:#ff480c;}
+.traffic-wrap .subway span.s02 {color:#36b244}
+.traffic-wrap .subway span.s03 {color:#cd9435;}
+.traffic-wrap .subway span.s04 {color:#286fdb;}
+.traffic-wrap .subway span.s05 {color:#af49cc;}
+.traffic-wrap .subway span img {vertical-align:top;}
+.traffic-wrap .info-ex {margin-left:70px;}
+
+
+/* Overseas Branch Office */
+.overseas {clear:both;width:100%;overflow:hidden;border-top:2px solid #043d86;border-bottom:1px solid #bac2ca;}
+.overseas li {border-bottom:1px solid #ddd;clear:both;}
+.overseas li h4 {display:block; width:140px; float:left; font-size:15px; font-weight:bold; color:#333; padding:80px 20px 0px;margin-top:10px;text-align:center; line-height:110%; min-height:70px}
+.overseas li.n1 h4 {background:url(../img/Contact/overseas_china.gif) no-repeat center 30px;}
+.overseas li.n2 h4 {background:url(../img/Contact/overseas_japan.gif) no-repeat center 30px;}
+.overseas li.n3 h4 {background:url(../img/Contact/overseas_uk.gif) no-repeat center 30px;margin-top:0px }
+.overseas li.n4 h4 {background:url(../img/Contact/overseas_sea.gif) no-repeat center 30px;margin-top:0px }
+.overseas li dl { float:right; width:549px; padding-left:30px; border-left:1px solid #ddd; margin:20px 0}
+.overseas li dt {font-size:14px; font-weight:bold; color:#034ea1; float:left; width:80px;margin:5px 0px}
+.overseas li dd {float:left; width:460px; margin:5px 0px}
+.overseas li.n3 dl {margin-top:30px}
+
+/* 홍보동영상 */
+.vod-wrap {border-top:2px solid #043d86;border-bottom:1px solid #bac2ca; padding:25px 0px}
+.vod-wrap .vod-view {position:relative;padding-top:10px;}
+.vod-wrap .vod-view .view-top a.bw-btn {position:absolute;right:0;top:0;}
+.vod-wrap .vod-view .view-top h3 {color:#034ea1;font-size:22px;font-weight:700;margin-bottom:30px;text-align:center;}
+.vod-wrap .vod-view .view-top h3 span {font-size:12px;color:#666;padding-left:15px;}
+.vod-wrap .vod-view .view-cont {overflow:hidden;}
+.vod-wrap .vod-view .view-cont .vod {width:700px;min-height:400px;margin:0 auto;}
+.vod-wrap .vod-view .view-cont .vod video {width:100%;height:390px;margin-bottom:-50px;}
+.vod-list {margin-top:20px;border-top:1px solid #ddd;text-align:center;padding-top:20px;}
+.vod-list li {display:inline-block;*display:inline;*zoom:1;width:175px;vertical-align:top;margin:0 20px;}
+.vod-list li a {display:block;position:relative;}
+.vod-list li a .arr_vod {position:absolute;top:0;left:0;background:url(../../img/Board/vod/ico_play.png) no-repeat center center;display:block;width:100%;height:117px;color:transparent;text-indent:-9999px;}
+.vod-list li.over .arr_vod, .vod-list li a:hover .arr_vod {position:absolute;top:0;left:0;background:url(../../img/Board/vod/ico_play_o.png) no-repeat center center;display:block;width:100%;height:117px;color:transparent;text-indent:-9999px;}
+.vod-list li .thum {width:175px;height:117px;overflow:hidden;display:block;margin-bottom:10px;}
+.vod-list li .subject {display:block;width:175px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.vod-list li.over .subject, .vod-list li:hover .subject {text-decoration:underline;color:#0e65c6;font-weight:bold}
