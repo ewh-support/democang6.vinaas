@@ -1,0 +1,25 @@
+@charset "utf-8"; 
+@import "../../_Css/board.css";
+@import "../../_Css/style.default.css";
+@import "../../_Css/prg.style.css";
+@import "../../_Css/popup.css";
+@import "layout.css";
+@import "content.css";
+
+
+body {font-family:"Arial","Helvetica","Verdana","sans-serif",Nanum Gothic,NanumGothic,"나눔고딕","돋움";}
+
+/* style.default.css : 오버라이딩 */
+.c-tit01, .c-tit02, .c-tit03, .c-tit04 {letter-spacing:0px;}
+.c-list01 .c-list04 {margin-top:5px}
+.c-list01 .c-list04 li {font-size:13px; padding:0 0 0px 11px;}
+
+.tbl-type01 th {font-weight:bold;}
+.c-tab01 li a {letter-spacing:0px;}
+.c-serif {font-family:Georgia; }
+
+.tbl-type03 td {font-size:12px}
+
+.top-wide-popups .btn-more {display:none;}
+.top-wide-popups .close-btns {width:130px;}
+.top-wide-popups .close-btns label {font-size:13px;letter-spacing:0;}
